@@ -1,8 +1,8 @@
 # Template for Casks/swiftcast.rb in inhzus/homebrew-tap. The release workflow fills in
 # version and sha256 and pushes it there.
 cask "swiftcast" do
-  version "0.3.0"
-  sha256 "e561f009040b2e07fa33f1b84cdae0b016af0577f9a251515d4afe0efb8ddd97"
+  version "0.3.1"
+  sha256 "7cbdaf2ff34774981efe214b491e32b7dfb122dec8cce98ff8cf7cc9f3af6618"
 
   url "https://github.com/inhzus/swiftcast/releases/download/v#{version}/SwiftCast-#{version}.zip"
   name "SwiftCast"
@@ -24,10 +24,4 @@ cask "swiftcast" do
   uninstall quit: "dev.swiftcast.app"
 
   zap trash: "~/Library/Preferences/dev.swiftcast.app.plist"
-
-  caveats <<~EOS
-    SwiftCast's default shortcut, ⌘Space, is taken by Spotlight. Either turn off Spotlight's
-    shortcut in System Settings → Keyboard → Keyboard Shortcuts → Spotlight, or pick another
-    shortcut in SwiftCast's Settings (⌘,).
-  EOS
 end
