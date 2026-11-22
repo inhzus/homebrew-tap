@@ -1,8 +1,8 @@
 # Template for Casks/swiftcast.rb in inhzus/homebrew-tap. The release workflow fills in
 # version and sha256 and pushes it there.
 cask "swiftcast" do
-  version "0.3.1"
-  sha256 "7cbdaf2ff34774981efe214b491e32b7dfb122dec8cce98ff8cf7cc9f3af6618"
+  version "0.4.0"
+  sha256 "f1bd0b79c592071b3dabbf90da6963d5be5e9f60161ead0d668b4d0d7b44ec55"
 
   url "https://github.com/inhzus/swiftcast/releases/download/v#{version}/SwiftCast-#{version}.zip"
   name "SwiftCast"
