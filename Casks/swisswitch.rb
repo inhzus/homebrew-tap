@@ -1,8 +1,8 @@
 # Template for Casks/swisswitch.rb in inhzus/homebrew-tap. The release workflow fills in
 # version and sha256 and pushes it there.
 cask "swisswitch" do
-  version "0.1.4"
-  sha256 "7a0421dc28abac8949de8bc1af327977ba72cca02d053cad8fbeec76811bf4b7"
+  version "0.2.0"
+  sha256 "bb1600610b21bf471275f2da035bc69d69595666fede14e7ba20d2dbe08526f4"
 
   url "https://github.com/inhzus/swisswitch/releases/download/v#{version}/Swisswitch-#{version}.zip"
   name "Swisswitch"
